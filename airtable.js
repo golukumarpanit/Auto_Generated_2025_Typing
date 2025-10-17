@@ -165,6 +165,7 @@ function AkashpandeyLearn(fields) {
 Roll No: ${fields.ROLL_NUB || "N/A"}
 Name: ${fields.NAME || "N/A"}
 Father's Name: ${fields.FATHERS_NAME || "N/A"}
+DOB: ${fields.DOB || "N/A"}
 Course: ${fields.SELECT_COURSE || "N/A"}
 Hindi Speed : ${fields.Hindi_SPD || "N/A"}
 English Speed : ${fields.English_SPD || "N/A"}`;
