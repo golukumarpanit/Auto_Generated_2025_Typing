@@ -97,7 +97,9 @@ function displayFields(fields) {
   document.getElementById("courseName").innerText = fields['SELECT_COURSE'] || "N/A";
   document.getElementById("englishspeed").innerText = fields['English_Typ'] || "N/A";
   document.getElementById("hindispeed").innerText = fields['Hindi_Typ'] || "N/A";
+  document.getElementById("qrc").innerText = fields['Ms_Nub'] || "N/A";
   document.title = fields['ROLL_NUB'] || "Certificate Search";
+  
 }
 
 // 🔹 QR और फोटो दिखाने वाला function
